@@ -75,6 +75,18 @@ const Home = ({ frontmatter }) => {
         </div>
       </section>
 
+      {/* workflow */}
+      <section className="section pb-0">
+        <div className="mb-8 text-center">
+          {markdownify(
+            workflow.title,
+            "h2",
+            "mx-auto max-w-[900px] font-bold leading-[44px]"
+          )}
+          {markdownify(workflow.description, "p", "mt-3")}
+        </div>
+      </section>
+
       {/* services */}
       {services.map((service, index) => {
         const isOdd = index % 2 > 0;
@@ -113,7 +125,7 @@ const Home = ({ frontmatter }) => {
                     !isOdd && "md:order-1"
                   }`}
                 >
-                  <h2 className="font-bold leading-[40px]">{service?.title}</h2>
+                  <h3 className="font-bold leading-[40px]">{service?.title}</h3>
                   <p className="mt-4 mb-2">{service?.content}</p>
                   {service.button.enable && (
                     <Link
@@ -136,24 +148,6 @@ const Home = ({ frontmatter }) => {
           </section>
         );
       })}
-
-      {/* workflow */}
-      <section className="section pb-0">
-        <div className="mb-8 text-center">
-          {markdownify(
-            workflow.title,
-            "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
-          )}
-          {markdownify(workflow.description, "p", "mt-3")}
-        </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
-      </section>
 
       {/* Cta */}
       <Cta cta={call_to_action} />

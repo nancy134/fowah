@@ -1,23 +1,25 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Friends of Weston Affordable Housing",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_width": "227",
+    "logo_height": "50",
+    "logo_text": "FoWAH"
   },
 
   "settings": {
-    "pagination": 4,
+    "pagination": 10,
     "summary_length": 200,
-    "blog_folder": "blogs"
+    "blog_folder": "blogs",
+    "project_folder": "projects",
+    "housing_folder": "housing"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Join Us",
     "link": "/contact"
   },
 

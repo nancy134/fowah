@@ -5,19 +5,19 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "Current Projects",
+      "url": "/projects"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Affordable Housing",
+      "url": "/housing"
     },
     {
-      "name": "Contact",
+      "name": "Organizations",
       "url": "/contact"
     },
     {
-      "name": "FAQ",
+      "name": "Contact Us",
       "url": "/faq"
     }
   ],
