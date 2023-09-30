@@ -68,7 +68,7 @@ const Items = ({ posts }) => {
           <p className="text-text">{post.frontmatter.desc}</p>
           <Link
             className="btn btn-primary mt-4"
-            href={`/${housing__folder}/${post.slug}`}
+            href={`/${housing_folder}/${post.slug}`}
             rel=""
           >
             Read More

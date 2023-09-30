@@ -4,7 +4,7 @@ import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { parseMDX } from "@lib/utils/mdxParser";
 import { markdownify } from "@lib/utils/textConverter";
-import Items from "@partials/Items";
+import Houses from "@partials/Houses";
 const { housing_folder } = config.settings;
 
 // blog pagination
@@ -21,7 +21,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}
-          <Items posts={currentPosts} />
+          <Houses posts={currentPosts} />
           <Pagination
             section={housing_folder}
             totalPages={totalPages}
