@@ -8,7 +8,7 @@ import Items from "@partials/Items";
 const { event_folder } = config.settings;
 
 // blog pagination
-const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
+const EventPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const indexOfLastPost = currentPage * pagination;
   const indexOfFirstPost = indexOfLastPost - pagination;
   const totalPages = Math.ceil(posts.length / pagination);
@@ -33,7 +33,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   );
 };
 
-export default BlogPagination;
+export default EventPagination;
 
 // get blog pagination slug
 export const getStaticPaths = () => {
