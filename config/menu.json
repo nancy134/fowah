@@ -17,6 +17,10 @@
       "url": "/contact"
     },
     {
+      "name": "Events",
+      "url": "/events"
+    },
+    {
       "name": "Contact Us",
       "url": "/faq"
     }

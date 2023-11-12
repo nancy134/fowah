@@ -14,7 +14,8 @@
     "summary_length": 200,
     "blog_folder": "blogs",
     "project_folder": "projects",
-    "housing_folder": "housing"
+    "housing_folder": "housing",
+    "event_folder": "events"
   },
 
   "nav_button": {
