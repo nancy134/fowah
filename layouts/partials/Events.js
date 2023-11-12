@@ -3,7 +3,7 @@ import { plainify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 
-const Items = ({ posts }) => {
+const Events = ({ posts }) => {
   const { event_folder, summary_length } = config.settings;
   return (
     <div className="section row pb-0">
@@ -11,7 +11,7 @@ const Items = ({ posts }) => {
         <div key={`key-${i}`} className="col-12">
           <p className="">
             <Link
-              href={`/${hike_folder}/${post.slug}`}
+              href={`/${event_folder}/${post.slug}`}
               className="block hover:text-primary"
             >
               {post.frontmatter.title}
@@ -24,4 +24,4 @@ const Items = ({ posts }) => {
   );
 };
 
-export default Items;
+export default Events;

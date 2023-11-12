@@ -4,7 +4,7 @@ import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { parseMDX } from "@lib/utils/mdxParser";
 import { markdownify } from "@lib/utils/textConverter";
-import Items from "@partials/Items";
+import Events from "@partials/Events";
 const { event_folder } = config.settings;
 
 // blog pagination
@@ -21,7 +21,7 @@ const EventPagination = ({ postIndex, posts, currentPage, pagination }) => {
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}
-          <Items posts={currentPosts} />
+          <Events posts={currentPosts} />
           <Pagination
             section={event_folder}
             totalPages={totalPages}
