@@ -1,12 +1,10 @@
 ---
-title: "Contact Us"
+title: "Join Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Why you should join us!
+  description: Receive our newsletter with current information on affordable housing in Weston. 
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Mail: [info@fowah.org](mailto:info@fowah.org)"
 ---

@@ -9,7 +9,7 @@ banner:
 
 # feature
 feature: 
-  title: Organizations we Support 
+  title: Organizations we collaborate with 
   features:
   - name: "Weston Affordable Housing Trust"
     icon: "/images/house.svg"
@@ -17,15 +17,15 @@ feature:
   - name: "Elderly Housing Committee"
     icon: "/images/house.svg"
     content: "The Elderly Housing Committee, appointed by the Moderator, is responsible for overseeing the management and operation of the Brook School Apartments."
-  - name: "WAFI"
+  - name: "WAHFI"
     icon: "/images/house.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "RHSA"
+    content: "Weston Affordable Housing Foundation Inc (WAHFI) is a non-profit that develops affordable housing.  Past projects include properties on Church, Viles and Pine Streets.  Currently developing a project on Birch Lane"
+  - name: "RHSO"
     icon: "/images/house.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "The Regional Housing Services Office (RHSO) is a collaboration between the member towns of Acton, Bedford, Concord, Lexington, Lincoln, Maynard, Natick, Sudbury, Wayland and Weston"
   - name: "CHAPA"
     icon: "/images/house.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Citizens' Housing and Planning Association (CHAPA)'s mission is to encourage the production and preservation of housing that is affordable to low and moderate-income families and individuals and to foster diverse and sustainable communities through planning and community development"
   - name: "Merriam Village"
     icon: "/images/house.svg"
     content: "Merriam Village is a retirement community for persons of low and moderate  income, located on a beautifully landscaped site within a 15 acre  wooded lot bordering 150 areas of conservation land."
@@ -82,8 +82,8 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Join our mailing list 
+  content: Receive our newsletter with current information on affordable housing in Weston.
   image: '/images/cta.svg'
   button:
     enable: true
