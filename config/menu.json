@@ -26,52 +26,5 @@
     }
   ],
   "footer": [
-    {
-      "name": "Current Projects",
-      "menu": [
-        {
-          "text": "0 Wellesley St",
-          "url": "/projects/project-5"
-        },
-        {
-          "text": "Sunrise property",
-          "url": "/projects/project-4"
-        }
-      ]
-    },
-    {
-      "name": "Affordable Housing",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
-      ]
-    },
-    {
-      "name": "Organization",
-      "menu": [
-        {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
-        }
-      ]
-    }
   ]
 }

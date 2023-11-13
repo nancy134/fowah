@@ -84,7 +84,7 @@ workflow:
 call_to_action:
   title: Join our mailing list 
   content: Receive our newsletter with current information on affordable housing in Weston.
-  image: '/images/cta.svg'
+  image: '/images/weston-town-green.webp'
   button:
     enable: true
     label: "Contact Us"
