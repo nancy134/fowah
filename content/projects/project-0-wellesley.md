@@ -3,6 +3,7 @@ title: "0 Wellesley Street"
 description: "0 Wellesley Street affordable housing project in Weston, Massachusetts"
 image: "/images/project-5.jpg"
 date: 2023-09-23T05:00:00Z
+order: 1
 draft: false
 ---
 
