@@ -15,7 +15,8 @@
     "blog_folder": "blogs",
     "project_folder": "projects",
     "housing_folder": "housing",
-    "event_folder": "events"
+    "event_folder": "events",
+    "organization_folder": "organizations"
   },
 
   "nav_button": {
