@@ -21,6 +21,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}
+          <a href="https://www.rhsohousing.org/sites/g/files/vyhlif421/f/uploads/weston_shi_8-16-2023.pdf" target="_blank">EOHCL CH40B Inventory</a>
           <Houses posts={currentPosts} />
           <Pagination
             section={housing_folder}
