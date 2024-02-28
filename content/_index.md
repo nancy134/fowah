@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Friends of Weston Affordable Housing 
+  title: Weston Housing Coalition 
   content: "Our mission is to champion equitable and inclusive communities by advocating for accessible, safe, and affordable housing options for all. We empower individuals, engage communities, and influence policy to create a future where every person has the opportunity to thrive in a stable and secure home. Together, we build a foundation for brighter tomorrows"
   image: /images/SHI-Inventory.png
   button:
